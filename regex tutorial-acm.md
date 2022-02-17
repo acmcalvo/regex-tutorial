@@ -94,7 +94,9 @@ A back-reference is a filter used to match the same text previously matched by a
 
 ### Look-ahead and Look-behind
 
+ Look-aheads and Look-behinds  (also called look-arounds) are specific types of non-capturing groups (used to match a pattern but without including it in the matching list). Look-arounds are used when a pattern must be preceded or followed by another pattern. For example, imagine we want to get all numbers that are preceded by the $ character from the string $4.44 and $10.88. We will use the following regular expression (?<=\$)[0-9\.]* which means: get all the numbers which contain the . character and are preceded by the $ character. 
+
 ## Author
 
   If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
-  You can view more of my projects at https://github.com/acmcalvo.
+  You can view more of my projects at https://github.com/acmcalvo. 
